@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container p-5">
+        <form action="/payment-page" method="post">
+            <div class="mb-3">
+                <input name="bill_amt" placeholder="Amount" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="product_name" placeholder="Product" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="fullname" placeholder="Fullname" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_email" placeholder="Email" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_address" placeholder="Address" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_city" placeholder="City" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_state" placeholder="State" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_country" placeholder="Country" class="form-control" required/>
+            </div>
+            <div class="mb-3">
+                <input name="bill_phone" placeholder="Phone" class="form-control" required/>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
